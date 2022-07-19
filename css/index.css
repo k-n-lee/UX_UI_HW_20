@@ -1,0 +1,229 @@
+/*Overall Formatting*/
+
+body {
+    background-color: #555757;
+    min-height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h3 {
+    font-size: 26px;
+    color: whitesmoke;
+}
+
+h4 {
+    font-size: 22px;
+    color: whitesmoke;
+}
+
+.content p {
+    color: black
+}
+
+p {
+    color: whitesmoke;
+}
+
+/*Homework 17*/
+
+.inline-block {
+    display: inline-block;
+    vertical-align: bottom;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    word-spacing: 40px;
+}
+
+header {
+    background-color: #373738;
+}
+
+.logo {
+    width: 22%;
+    padding: 1%;
+    text-align: left;
+}
+
+#logo {
+    width:60px;
+    height: 60px;
+}
+
+nav {
+    width: 73%;
+    text-align: right;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+.heroImg {
+    background: url("../images/Background\ 2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(0,0,0);opacity:0.9;
+    height: 600px;
+    padding: 20px;
+}
+
+#portrait {
+  height: 25%;
+  width: 25%;
+}
+
+.content {
+    display: block;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+
+    text-align: left;
+    background-color: whitesmoke;opacity:1;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    background-color: #373738;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: middle;
+    word-spacing: 40px;
+}
+
+/*Homework 18*/
+
+/*My UX Skills section*/
+.MySkills {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0;
+    transition: opacity 0.1s;
+}
+
+.flexContainer div {
+    height: 475px;
+    width: 350px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flexContainer img {
+    height: 40%;
+    width: 40%;
+    box-shadow: 10px 10px 5px #373738;
+    -moz-box-shadow: 10px 10px 5px #373738;
+    -webkit-box-shadow: 10px 10px 5px #373738;
+    -khtml-box-shadow: 10px 10px 5px #373738;
+}
+
+/*My Work section*/
+.SelectWork {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 475px 475px 475px;
+    grid-template-areas: "WorkImage1" "WorkDescription1" "WorkImage2" "WorkDescription2" "WorkImage3" "WorkDescription3";
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0;
+    transition: opacity 0.1s;
+}
+
+#WorkImage1, #WorkImage2, #WorkImage3 {
+    padding-left: 30px;
+    padding-bottom: 40px;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+#WorkDescription1, #WorkDescription2, #WorkDescription3 {
+    padding-top: 15px;
+    padding-right: 30px;
+}
+
+.workGrid button {
+    background-color: whitesmoke;
+    color: #373738;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    padding: 8px;
+    float: left;
+    text-decoration: none;
+}
+
+.responsive {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+@media only screen and (max-width: 600){
+    .flexContainer {
+        display: column;
+    }
+    .flexContainer div {
+        width: 100%;
+    }
+    .workGrid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 25% auto auto;
+        grid-template-areas: "WorkImage1" "WorkDescription1" "WorkImage2" "WorkDescription2" "WorkImage3" "WorkDescription3";
+    }
+}
+
+/*Homework 19*/
+
+#mySkills {
+    opacity: 0;
+    transition: opacity 0.1s;
+}
+
+#selectWork {
+    opacity: 0;
+    transition: opacity 0.1s;
+}
