@@ -227,3 +227,92 @@ footer ul {
     opacity: 0;
     transition: opacity 0.1s;
 }
+
+/*Homework 20*/
+
+/*USDA Case Study*/
+
+.h1CaseStudy {
+    color: #f3f3f3;
+}
+
+.h2CaseStudy {
+    text-align: left !important;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.jumbotron {
+    padding-top: 75px;
+    padding-bottom: 15px;
+}
+
+#USDA-0 {
+    height: 600px;
+    padding: 10px;
+    float: left;
+}
+
+#USDA-nav {
+    padding-top: 80px;
+    padding-left: 60px;
+}
+
+.jumbotron {
+    background-color: #2D313B;
+}
+
+#USDA-1 {
+    height: 300px;
+    width: 500px;
+    padding-top: 20px;
+}
+
+#USDA-approach {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+#USDA-2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 20%;
+    width: 100%;
+}
+
+#USDA-3 {
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    height: 40%;
+    width: 90%;
+}
+
+#USDA-4 {
+    height: 75%;
+    width: 75%;
+}
+
+.takeaways {
+    background-color: #6D9E21;
+    height: 250px;
+    width: 500px;
+    padding: 50px;
+}
+
+.takeawaytitle {
+    font-style: bold;
+}
+
+#USDA-5, #USDA-7 {
+    height: 300px; 
+    padding-left: 50px;
+}
+
+.imgprototype {
+    height: 100%;
+    width: 100%;
+}
